@@ -6,8 +6,37 @@
   </head>
 
   <body>
-    <input type="textfield" class="signer-name"></input>
-    <input type="textfield" class="signer-occupation"></input>
-    <button class="save-button" onclick="create()">Salvar</button>
+    <h1>Assinaturas:</h1>
+      <div>
+        <label for="signer-name">Nome:</label>
+        <input type="textfield" class="signer-name"></input>
+      </div>
+      <div>
+        <label for="signer-occupation">Profissão:</label>
+        <input type="textfield" class="signer-occupation"></input>
+      </div>
+      <div>
+        <label for="signer-email">Email:</label>
+        <input type="textfield" class="signer-email"></input>
+      </div>
+      <button class="save-button" onclick="createSigner()">Assinar</button>
+
+    <br><br>
+ 
+    <h1>Depoimentos:</h1>
+      <div>
+        <label for="testimony">Depoimento:</label>
+        <input type="textfield" class="testimony"></input>
+      </div>
+      <div>
+        <label for="author-name">Nome:</label>
+        <input type="textfield" class="author-name"></input>
+      </div>
+      <div>
+        <label for="signer-email">Email:</label>
+        <input type="textfield" class="author-email"></input>
+      </div>
+      <button class="save-button" onclick="createTestimony()">Enviar</button>
+    </form>
   </body>
 </html>
