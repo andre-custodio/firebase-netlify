@@ -1,7 +1,7 @@
 firebase.initializeApp({
-  apiKey: 'AIzaSyD0qtFjQNMMclAZzEDu4iysSQP5I61uZPs',
-  authDomain: 'quero-hackday.firebaseapp.com',
-  projectId: 'quero-hackday'
+  apiKey: 'API-KEY',
+  authDomain: 'AUTH-DOMAIN',
+  projectId: 'PROJECT-ID'
 });
 
 const firestore = firebase.firestore();
